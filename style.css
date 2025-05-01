@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(166, 166, 249);
+    font-size: 1.01rem;
+}
+
+main hr{
+    border: 0px;
+    background: rgb(146, 146, 242);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left{
+    font-size: 1.5rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+
+.firstSection > div{
+    width: 36%;
+}
+
+.leftSection{
+    font-size: 3rem;
+}
+
+.leftSection .buttons{
+    padding: 50px 0;
+}
+
+.leftSection .btn{
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #1c1c41;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.leftSection .btn:hover{
+    background-color: #383870;
+    font-size: 18.1px;
+}
+
+.rightSection img{
+    margin: 50px 0;
+    width: 80%;
+}
+
+.purple{
+    color:rgb(154, 115, 232);
+}
+
+.text-gray{
+    color: gray;
+}
+
+#element{
+    color: rgb(154, 115, 232);
+}
+
+.secondSection{
+    max-width: 85vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1{
+    font-size: 1.9rem;
+}
+
+.secondSection .box{
+    background: white;
+    height: 2px;
+    width: 85vw;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 163px;
+}
+
+/* .secondSection .btn{
+    
+} */
+
+.vertical-title{
+    position:relative;
+    top: 60px;
+    left: -80px;
+    width: 195px;
+    font-size: 14px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 80px;
+    left: -79px;
+    color: gray;
+    width: 195px;
+    font-size: 15px;
+}
+
+.image-top{
+    filter: invert(100%);
+    width: 40px;
+    position: relative;
+    top: -43px;
+    left: -15px;
+}
+
+footer{
+    background-color: rgb(27 27 50);
+}
+
+footer h3{
+    color: rgb(154, 115, 232);
+}
+
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer > div{
+    width: 223px;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
